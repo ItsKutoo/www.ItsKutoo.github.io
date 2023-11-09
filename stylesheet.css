@@ -15,12 +15,30 @@ html, body {
 
 h1, h2, h3, h4, h5, h6, strong {
     color: var(--mainText);
-
+    font-family:'Russo One', sans-serif;
+   
 
 }p, li, span, label, input, textarea {
     color: var(--secondaryText);
-
+    font-family: 'Roboto Mono', monospace;
 }
+
+a{
+   text-decoration: none;
+   color: #17a3b8;
+}
+
+ul {
+   list-style: none;
+}
+
+h1{ font-size: 56px;}
+h2{ font-size: 36px;}
+h3{ font-size: 28px;}
+h4{ font-size: 24px;}
+h5{ font-size: 20px;}
+h6{ font-size: 16px;}
+
 
 .s1 {
     background-color: var(--mainColor);
