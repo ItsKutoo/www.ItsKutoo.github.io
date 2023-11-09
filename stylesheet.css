@@ -60,18 +60,41 @@ h6{ font-size: 16px;}
     display: grid;
     text-align: center;
     align-content: center;
-    border: 2px dashed lightcoral;
     min-height: 10em;
 
 }
 .intro-wrapper {
     background-color: var(--secondaryColor);  
     border: 1px solid var(--bordercolor);
+    border-radius: 5px 5px 0 0;
+
     box-shadow: 47px 10px 69px 0px rgba(0,0,0,0.75);
     -webkit-box-shadow: 47px 10px 69px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 47px 10px 69px 0px rgba(0,0,0,0.75);
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3em 30em;
+    grid-template-areas: 
+         'nav wrapper'
+         'left-column right-column'
+    ;
 }
 
+.nav-wrapper {
+    grid-area: nav-wrapper;
+    border-bottom: 1px solid var(--borderColor);
+}
+
+.left-column {
+    grid-area: left-column;
+    
+}
+
+.right-column{
+    grid-area: right-column;
+   
+}
 
 @media screen and (max-width: 1200px){
        main-container {
