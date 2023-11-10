@@ -7,6 +7,8 @@
     --secondaryText:#4b5156;
 
     --themeDotBorder:#24292e;
+
+    --previewBg:rgb(251, 249, 243, 0.8);
 }
 
 html, body {
@@ -137,6 +139,8 @@ h6{ font-size: 16px;}
 
 .left-column {
     grid-area: left-column;
+    padding-top: 50px;
+    padding-bottom: 50px;
    
 }
 
@@ -198,7 +202,43 @@ background-color: #fff;
 
 .right-column{
     grid-area: right-column;
-   
+}
+
+#preview{
+    width: 300px;
+    border:1.5px solid #17a2b8;
+    background-color: var(--previewBg);
+    padding: 15px;
+    position: relative;
+}
+
+.corner{
+    height:7px;
+    width:7px;
+    border-radius: 50%;
+    border:1.5px solid #17a2b8;
+    background-color: #fff;
+    position: absolute;
+}
+
+#corner-tl{
+    top:-5px;
+    left:-5px;
+}
+
+#corner-tr{
+    top:-5px;
+    right:-5px;
+}
+
+#corner-br{
+    bottom:-5px;
+    right:-5px;
+}
+
+#corner-bl{
+    bottom:-5px;
+    left:-5px;
 }
   
 @media screen and (max-width: 1200px){
