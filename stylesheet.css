@@ -100,6 +100,10 @@ h6{ font-size: 16px;}
    
 }   
 
+#navigation a{
+    color:var(--mainText);
+}
+
 #navigation {
     margin: 0;
     padding: 10px;
@@ -316,7 +320,7 @@ background-color: #fff;
     margin:0;
 }
 
-.post.intro{
+.post-intro{
     color: #4b5156;
     font-size: 14px;
 }
