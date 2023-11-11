@@ -21,6 +21,10 @@ html, body {
    overflow: auto;
 }
 
+body *{
+transition: 0.3s;
+}
+
 h1, h2, h3, h4, h5, h6, strong {
     color: var(--mainText);
     font-family:'Russo One', sans-serif;
