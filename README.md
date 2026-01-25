@@ -1,5 +1,5 @@
 # What this is
- -My portfolio 
+ - My portfolio 
  
 # Why I built this
  - I decided to utilise the skills I have gained
@@ -14,6 +14,6 @@
  - HTML, CSS & Javascript
 
 # The features
- - The user can change the colour of the website once uou visit
+ - The user can change the colour of the website once you visit
    and it saves upon leaving. 
 
